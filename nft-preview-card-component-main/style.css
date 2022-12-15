@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Prompt:ital@1&display=swap');
+body{
+    background-color:  hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+#container{
+    height: 540px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    background-color:  hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+
+#container>a:first-child{
+    display: block;
+    height: 300px;
+    border-radius: 10px;
+   position: relative;
+}
+#eye{
+   position: absolute;
+   bottom: 40%;
+   left: 40%;
+}
+
+#eye~img{
+    position: absolute;
+    cursor: pointer;
+}
+#eye~img:active{
+    opacity: 0.5;
+}
+#container>a:first-child:active{
+    display: block;
+}
+#container>a{
+    text-decoration: none;
+    color: white;
+}
+#container>a:active{
+    color: hsl(178, 100%, 50%);
+    background-color: hsl(178, 100%, 50%);
+}
+
+#container>h1{
+  color: white;
+  cursor: pointer;
+}
+
+#container>p{
+    color:hsl(215, 51%, 70%) ;
+}
+
+#crypto{
+    display: flex;
+    justify-content: space-between;
+}
+
+#crypto>div{
+    display: flex;
+}
+#crypto>div>p{
+    margin-left: 10px;
+    margin-top: 0px;
+}
+#crypto>div:first-child>p{
+    color:hsl(178, 100%, 50%) ;
+}
+#crypto>div:last-child>p{
+    color:hsl(215, 51%, 70%);
+}
+
+hr{
+    border:1px solid hsl(215, 51%, 70%);
+    background-color:hsl(215, 51%, 70%) ;
+}
+#cardFooter{
+    display: flex;
+}
+#cardFooter>img{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#cardFooter>p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#cardFooter>p>span:first-child{
+   color: hsl(215, 51%, 70%)
+}
+#cardFooter>p>span:last-child{
+    color: white;
+    cursor: pointer;
+}
+#cardFooter>p>span:last-child:active{
+    color:hsl(178, 100%, 50%);
+}
